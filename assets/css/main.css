@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'icelandregular';
+    src: url('iceland-regular-webfont.woff2') format('woff2'),
+         url('iceland-regular-webfont.woff') format('woff'),
+         url('iceland-regular-webfont.ttf') format('truetype'),
+         url('iceland-regular-webfont.svg#icelandregular') format('svg');
+
+}
+
+body {
+    font-family: 'icelandregular';
+    font-size: 3vh;
+    background-color: #191919;
+    background-image: url(https://imgur.com/1GnY0Zo);
+    color: #cccccc;
+}
+
+.nextPage {
+    font-size: 5vh;
+    color: #ff1717;
+}
+
+.nextPage:hover {
+    color: #f16878;
+}
+
+.back {
+    font-size: 2vh;
+}
+
+.back:hover {
+    color: #191919;
+}
+
+#panel {
+    display: block;
+    width: 70vw;
+    height: 56.25%;
+    margin: 0px auto;
+    padding:5px 10px;
+}
+
+.panel {
+    padding:5px 10px;
+    width: 50vw;
+    margin: 0px auto;
+}
+
+.dialog {
+    background-color:#0D0D0D;
+    padding:5px 10px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.textpanel {
+    padding:5px 10px;
+    background-color: #232323;
+    width: 50vw;
+    height: auto;
+    padding:5px 10px;
+    margin:0px auto;
+}
+
+.AMARYS {
+    color: #ff1414;
+}
+
+.LEX {
+    color: #51aeff;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #848484;
+    text-decoration: none;
+  }
