@@ -17,7 +17,7 @@ body {
 
 .nextPage {
     font-size: 5vh;
-    color: #ff1717;
+    color: #ff1717 !important;
 }
 
 .nextPage:hover {
@@ -75,11 +75,11 @@ body {
 }
 
 a:link, a:visited {
-    color: white;
+    color: #cccccc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #848484;
+    color: darkslategray;
     text-decoration: none;
   }
